@@ -14,7 +14,7 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const menuItems = ['about me', 'education', 'skills', 'projects'];
+  const menuItems = ['about me', 'education', 'skills', 'projects','contact me'];
 
   const scrollToSection = (item:string) => {
     setActive(item);

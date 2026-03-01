@@ -4,6 +4,7 @@ import AboutSection from './components/ui/AboutSection';
 import EducationSection from './components/ui/EducationSection';
 import SkillsSection from './components/ui/SkillsSection';
 import ProjectsSection from './components/ui/ProjectsSection';
+import ContactSection from './components/ui/ContactSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <EducationSection />
           <SkillsSection />
           <ProjectsSection />
+          <ContactSection/>
         </div>
       </main>
       
